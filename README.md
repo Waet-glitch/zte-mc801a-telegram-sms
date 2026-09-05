@@ -17,7 +17,6 @@ A lightweight Python script to automatically read SMS messages from the **ZTE MC
 ### 1. Dependencies
 Ensure you have Python 3 and `requests` installed:
 
-```bash
 sudo apt update
 sudo apt install python3 python3-requests -y
 
