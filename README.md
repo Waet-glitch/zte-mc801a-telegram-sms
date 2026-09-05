@@ -21,7 +21,7 @@ Ensure you have Python 3 and `requests` installed:
 sudo apt update
 sudo apt install python3 python3-requests -y
 
-2. Configuration
+### 2. Configuration
 Copy the template configuration file to config.py:
 
 cp config.py.example config.py
@@ -34,7 +34,7 @@ ZTE_PWD = "your_router_password"     # WebUI Admin Password
 TELEGRAM_BOT_TOKEN = "your_bot_token"# From @BotFather
 TELEGRAM_CHAT_ID = "your_chat_id"    # Your chat ID
 
-3. Usage
+### 3. Usage
 Run the script manually to test:
 
 python3 ztesms.py
@@ -48,7 +48,7 @@ ztesms/
 ├── processed_sms.json  # Tracks forwarded SMS IDs (auto-generated, git-ignored)
 └── README.md           # Documentation
 
-License
+### License
 MIT License. Free to use, modify, and distribute.
 
 
